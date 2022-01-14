@@ -1,8 +1,9 @@
 /* Website Color Configuration : Start */
 :root {
-    --primary-background-color: #F2F3F7;
-    --secondary-background-color: #CFDBD5;
-    --tertiary-background-color: #F5CB5C;
+    --default-background-color: #ffffff;
+    --primary-background-color: #F5CB5C;
+    --secondary-background-color: #F2F3F7;
+    --tertiary-background-color: #CFDBD5;
     --color-primary: #F5CB5C;
     --color-secondary: #242423;
     --color-tertiary: #333533;
@@ -18,9 +19,13 @@
 }
 
 body {
-    background-color: var(--primary-background-color);
+    background-color: var(--default-background-color);
     color: var(--color-secondary);
     font-family: var(--primary-font);
+}
+
+.primary-bg-color {
+    background-color: var(--primary-background-color);
 }
 
 .color-primary {
