@@ -1,10 +1,13 @@
 /* Website Color Configuration : Start */
 :root {
-    --primary-background-color: #E8EDDF;
+    --primary-background-color: #F2F3F7;
     --secondary-background-color: #CFDBD5;
+    --tertiary-background-color: #F5CB5C;
     --color-primary: #F5CB5C;
     --color-secondary: #242423;
     --color-tertiary: #333533;
+    --primary-font: 'Heebo', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
 }
 
 [data-theme="dark"] {
@@ -17,6 +20,7 @@
 
 body {
     background-color: var(--primary-background-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 .color-primary {
