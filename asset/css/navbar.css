@@ -1,0 +1,13 @@
+.navbar {
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.navbar .navbar-brand {
+    font-weight: 600;
+}
+
+.navbar .nav-link {
+    padding-right: 25px !important;
+    font-family: var(--primary-font);
+}
