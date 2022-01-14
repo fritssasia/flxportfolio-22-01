@@ -1,3 +1,37 @@
+/* Website Color Configuration : Start */
+:root {
+    --primary-background-color: #E8EDDF;
+    --secondary-background-color: #CFDBD5;
+    --color-primary: #F5CB5C;
+    --color-secondary: #242423;
+    --color-tertiary: #333533;
+}
+
+[data-theme="dark"] {
+    --primary-background-color: #E8EDDF;
+    --secondary-background-color: #CFDBD5;
+    --color-primary: #F5CB5C;
+    --color-secondary: #242423;
+    --color-tertiary: #333533;
+}
+
+body {
+    background-color: var(--primary-background-color);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.color-tertiary {
+    color: var(--color-tertiary);
+}
+/* Website Color Configuration : End */
+
 /* Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) {}
 
