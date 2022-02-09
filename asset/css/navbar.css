@@ -1,13 +1,49 @@
 .navbar {
     border-radius: 20px;
     margin: 20px;
+    transition: ease-out 0.5ms;
+}
+
+.navbar-active {
+    background-color: var(--primary-background-color);
+    transition: ease-in 0.5ms
+}
+
+.navbar-active a {
+    color: #ffffff !important;
 }
 
 .navbar .navbar-brand {
     font-weight: 600;
 }
 
-.navbar .nav-link {
-    padding-right: 25px !important;
+.navbar .nav-link.menu {
     font-family: var(--primary-font);
 }
+
+.navbar .btnSwitchThemeWrapper {
+    margin-left: 25px;
+}
+
+.navbar .btnSwitchThemeWrapper .btn-switch-theme {
+    margin-top: 5px;
+    box-shadow: none;
+}
+
+.btn-switch-theme:checked {
+    background-color: black;
+    border-color: black;
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+    .navbar .nav-link.menu {
+        padding-left: 25px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
