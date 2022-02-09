@@ -21,3 +21,19 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#hero-section .socmed-list {
+    position: absolute;
+    left: 0;
+    padding-left: 35px;
+    width: 10px;
+}
+
+#hero-section .socmed-link {
+    padding-top: 10px;
+}
+
+#hero-section .socmed-link a {
+    font-size: 18px;
+    color: var(--color-tertiary);
+}
