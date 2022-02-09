@@ -37,7 +37,7 @@
 <body>
 
     <!-- Navbar : Start -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top container mx-auto">
+    <nav class="navbar navbar-active navbar-expand-lg navbar-light fixed-top" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">Fritslx</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -47,19 +47,27 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link menu active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My Intro</a>
+                        <a class="nav-link menu" href="#">My Intro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link menu" href="#">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link menu" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link menu" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item btnSwitchThemeWrapper">
+                        <div class="form-check form-switch">
+                            <label class="form-check-label d-md-none" for="btnSwithTheme">Switch Theme</label>
+                            <input class="form-check-input form-switch- btn-switch-theme" type="checkbox" role="switch" id="btnSwithTheme">
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -71,6 +79,25 @@
     <section class="hero-section d-flex align-items-center" id="hero-section">
         <div class="container">
             <div class="row d-flex align-items-center">
+
+                <ul class="socmed-list">
+                    <li class="socmed-link">
+                        <a href="" class=""><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="socmed-link">
+                        <a href="" class=""><i class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li class="socmed-link">
+                        <a href="" class=""><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="socmed-link">
+                        <a href="" class=""><i class="fab fa-github-square"></i></a>
+                    </li>
+                    <li class="socmed-link">
+                        <a href="" class=""><i class="fab fa-gitlab"></i></a>
+                    </li>
+                </ul>
+
                 <div class="col-lg-6 order-1 order-md-0">
                     <p class="say-hello color-primary mb-0">Hi, I am</p>
                     <h1 class="name color-secondary mb-0">Rivas Frits Sasia</h1>
@@ -80,9 +107,11 @@
                         <a href="" class="btn primary-bg-color text-white ms-3">Contact Me</a>
                     </div>
                 </div>
+
                 <div class="col-lg-6 order-0 order-md-1">
                    <div class="profile-pict d-block mx-auto ms-md-auto"></div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -113,6 +142,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+
+    <script src="asset/js/script.js"></script>
+
 </body>
 
 </html>
