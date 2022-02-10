@@ -1,7 +1,111 @@
+#experience {
+    padding: 120px 0px 120px 0px;
+    background-color: #7c7664;
+}
+
 #experience .heading {
     font-size: 30px;
 }
 
 #experience .card {
     width: 50%;
+}
+
+#experience .nav .nav-link {
+    color: var(--tertiary-color);
+}
+
+#experience .nav .nav-link.active {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+#experience .card .icon-wrapper {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+#experience .card i {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#experience .card .profession {
+    font-size: 22px;
+}
+
+/* ====== */
+#experience .experience-list {
+    max-width: 520px;
+    margin: auto;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#experience .experience-list:before {
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: rgba(255, 255, 255, .2);
+    position: absolute;
+    left: 46%;
+    transform: translateX(-50%);
+    top: -5px;
+}
+
+#experience .experience-list li {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#experience .experience-list li .dot-icon {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: block;
+    background: rgba(255, 255, 255, .2);
+    position: absolute;
+    left: 46%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+
+#experience .year {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+#experience .experience-list li .year .long-content {
+    padding-right: 100px;
+}
+
+#experience .experience-list li .year .short-content {
+    padding: 0px 55px;
+}
+
+#experience .experience-list li .year .d-flex p {
+    color: rgba(255, 255, 255, .75);
+    margin-bottom: 0;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+#experience .experience-list .details {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#experience .experience-list li .year .details p {
+    color: rgba(255, 255, 255, .75);
+    margin-bottom: 0;
+}
+
+#experience .experience-list li .year .details h4 {
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 20px;
 }
