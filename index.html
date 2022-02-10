@@ -189,35 +189,78 @@
     <!-- Experience : Start -->
     <section class="py-5 my-5" id="experience">
         <div class="container">
-            <div class="row">
 
-                <div class="col-lg-6">
-                    <h1 class="heading my-experience">My Experience</h1>
-                    <div class="content">
-
-                        <div class="card">
-                            <div class="card-body">
-
+            <ul class="nav nav-pills justify-content-center mb-5" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="myExperienceTab" data-bs-toggle="pill" data-bs-target="#myExperience"
+                        type="button" role="tab" aria-controls="pillsMyExperience" aria-selected="true">My Experience</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="myEducationTab" data-bs-toggle="pill" data-bs-target="#myEducation"
+                        type="button" role="tab" aria-controls="pillsMyEducation" aria-selected="false">My Education</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="myExperience" role="tabpanel" aria-labelledby="myExperienceTab">
+                    <ul class="experience-list">
+                        <li>
+                            <span class="dot-icon"></span>
+                            <div class="year">
+                                <div class="d-flex long-content">
+                                    <p>January to August 2019</p>
+                                </div>
+                                <div class="details">
+                                    <h4>IT Center</h4>
+                                    <p>Technical Assistant <br>Manado, North Sulawesi</p>
+                                </div>
                             </div>
-                        </div>
-
-                    </div>
+                        </li>
+                        <li>
+                            <span class="dot-icon"></span>
+                            <div class="year">
+                                <div class="d-flex long-content">
+                                    <p>January 2020 to Now</p>
+                                </div>
+                                <div class="details ps-3 ms-1">
+                                    <h4>HevaDevelop</h4>
+                                    <p>Remote Front End Web Developer <br>Depok, West Java</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="col-lg-6">
-                    <h1 class="heading my-education">My Education</h1>
-                    <div class="content">
-
-                        <div class="card">
-                            <div class="card-body">
-                                
+                <!-- -- My Education Content -- -->
+                <div class="tab-pane fade" id="myEducation" role="tabpanel" aria-labelledby="myEducationTab">
+                    <ul class="experience-list">
+                        <li>
+                            <span class="dot-icon"></span>
+                            <div class="year">
+                                <div class="d-flex short-content">
+                                    <p>2014 to 2017</p>
+                                </div>
+                                <div class="details ps-5 ms-4">
+                                    <h4>SMP PGRI 2 Manado</h4>
+                                    <p>Junior high school <br>Manado, North Sulawesi</p>
+                                </div>
                             </div>
-                        </div>
-
-                    </div>
+                        </li>
+                        <li>
+                            <span class="dot-icon"></span>
+                            <div class="year">
+                                <div class="d-flex short-content">
+                                    <p>2017 to 2020</p>
+                                </div>
+                                <div class="details ps-5 ms-4">
+                                    <h4>SMK YPKM - Computer and Network Engineering</h4>
+                                    <p>Vocational School <br>Manado, North Sulawesi</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-
             </div>
+
         </div>
     </section>
     <!-- Experience : End -->
