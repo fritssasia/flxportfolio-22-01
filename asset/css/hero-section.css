@@ -11,13 +11,13 @@
 #hero-section .name {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 2.5em;
 }
 
 #hero-section .profile-pict {
     background-image: url('../images/profile-pict.png');
-    height: 370px;
-    width: 370px;
+    height: 290px;
+    width: 290px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -37,3 +37,21 @@
     font-size: 18px;
     color: var(--color-tertiary);
 }
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #hero-section .name {
+        font-size: 60px;
+    }
+
+    #hero-section .profile-pict {
+        height: 370px;
+        width: 370px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
