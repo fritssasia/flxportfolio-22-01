@@ -21,6 +21,19 @@
     font-family: var(--primary-font);
 }
 
+.navbar .nav-link.active {
+    font-weight: 600;
+}
+
+.navbar .nav-link.active::after {
+    content: '';
+    width: 50%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: #ffffff;
+}
+
 .navbar .btnSwitchThemeWrapper {
     margin-left: 25px;
 }
