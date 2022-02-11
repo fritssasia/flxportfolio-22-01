@@ -1,0 +1,8 @@
+#portfolio .nav-link {
+    color: var(--tertiary-color);
+}
+
+#portfolio .nav-link.active {
+    background-color: var(--primary-color);
+    color: #ffffff
+}
