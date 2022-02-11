@@ -1,6 +1,5 @@
 #experience {
     padding: 120px 0px 120px 0px;
-    background-color: var(--secondary-color);
 }
 
 #experience .heading {
@@ -48,7 +47,7 @@
     content: "";
     height: 100%;
     width: 5px;
-    background: #F5CB5C;
+    background: var(--primary-color);
     position: absolute;
     left: 2%;
     transform: translateX(-50%);
@@ -65,7 +64,7 @@
     width: 15px;
     border-radius: 50%;
     display: block;
-    background: #F5CB5C;
+    background: var(--primary-color);
     position: absolute;
     left: 2%;
     top: 30px;

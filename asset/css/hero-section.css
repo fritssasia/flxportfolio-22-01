@@ -1,6 +1,7 @@
 #hero-section {
-    background-color: var(--secondary-color);
+    background-color: var(--default-color);
     height: 100vh;
+    transition: background-color 1s;
 }
 
 #hero-section .say-hello {
