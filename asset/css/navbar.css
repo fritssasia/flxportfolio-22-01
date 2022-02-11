@@ -1,5 +1,5 @@
 .navbar {
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 20px;
     transition: ease-out 0.5ms;
 }
@@ -21,11 +21,17 @@
     font-family: var(--primary-font);
 }
 
-.navbar .nav-link.active {
-    font-weight: 600;
+.navbar .nav-link {
+    border-radius: 10px;
 }
 
-.navbar .nav-link.active::after {
+.navbar .nav-link.active {
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+/* .navbar .nav-link.active::after {
     content: '';
     width: 50%;
     height: 2px;
@@ -33,7 +39,7 @@
     margin: auto;
     margin-top: 2px;
     background-color: #ffffff;
-}
+} */
 
 .navbar .btnSwitchThemeWrapper {
     margin-left: 25px;
@@ -53,6 +59,7 @@
 @media (min-width: 768px) {
     .navbar .nav-link.menu {
         padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
