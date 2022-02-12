@@ -11,7 +11,7 @@
 }
 
 #experience .nav .nav-link {
-    color: var(--tertiary-color);
+    color: var(--secondary-text-color);
 }
 
 #experience .nav .nav-link.active {
@@ -19,22 +19,6 @@
     color: #ffffff;
 }
 
-#experience .card .icon-wrapper {
-    background-color: var(--primary-color);
-    border-radius: 10px;
-}
-
-#experience .card i {
-    font-size: 30px;
-    color: #ffffff;
-    padding: 10px;
-}
-
-#experience .card .profession {
-    font-size: 22px;
-}
-
-/* ====== */
 #experience .experience-list {
     max-width: 260px;
     margin: auto;
@@ -81,7 +65,7 @@
 }
 
 #experience .experience-list li .year .d-flex p {
-    color: var(--tertiary-color);
+    color: var(--secondary-text-color);
     margin-bottom: 0;
     padding-top: 20px;
     margin-top: 0;
@@ -94,12 +78,12 @@
 }
 
 #experience .experience-list li .year .details p {
-    color: var(--tertiary-color);
+    color: var(--secondary-text-color);
     margin-bottom: 0;
 }
 
 #experience .experience-list li .year .details h4 {
-    color: var(--tertiary-color);
+    color: var(--secondary-text-color);
     font-size: 21px;
     margin-bottom: 20px;
 }
