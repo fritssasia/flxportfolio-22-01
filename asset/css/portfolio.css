@@ -1,5 +1,5 @@
 #portfolio .nav-link {
-    color: var(--tertiary-color);
+    color: var(--secondary-text-color);
 }
 
 #portfolio .nav-link.active {
