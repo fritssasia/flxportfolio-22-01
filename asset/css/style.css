@@ -16,6 +16,12 @@ li {
 
 .btn {
     border-radius: 10px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.btn:focus {
+    box-shadow: none;
 }
 /* Global Style : End */
 
@@ -43,8 +49,9 @@ li {
     sans-serif;
 }
 
-html {
+html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
