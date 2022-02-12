@@ -37,20 +37,6 @@
     border-radius: 10px;
 }
 
-/* .navbar .nav-link.active::after {
-    content: '';
-    width: 50%;
-    height: 2px;
-    display: block;
-    margin: auto;
-    margin-top: 2px;
-    background-color: #ffffff;
-} */
-
-.navbar .btnSwitchThemeWrapper {
-    margin-left: 25px;
-}
-
 .navbar .btnSwitchThemeWrapper .btn-switch-theme {
     margin-top: 5px;
     box-shadow: none;
