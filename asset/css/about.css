@@ -23,6 +23,10 @@
     margin-bottom: 3px;
 }
 
+#about .card {
+    border-radius: 10px;
+}
+
 #about .card .desc {
     font-size: 15px;
 }
