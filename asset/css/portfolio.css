@@ -6,3 +6,10 @@
     background-color: var(--primary-color);
     color: #ffffff
 }
+
+#portfolio img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
