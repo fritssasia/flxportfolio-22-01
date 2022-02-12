@@ -1,5 +1,5 @@
 #about .card {
-    background-color: #F6F6F8;
+    background-color: var(--tertiary-color);
 }
 
 #about .icon i {
@@ -11,10 +11,30 @@
 #about h2 {
     font-size: 30px;
     margin-bottom: 0;
-    color: var(--primary-color);
 }
 
 #about p {
-    color: var(--color-tertiary);
+    color: var(--secondary-text-color);
     margin-bottom: 0;
+}
+
+#about .skill {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+#about .card .desc {
+    font-size: 15px;
+}
+
+#about .desc, .skill {
+    color: var(--secondary-text-color);
+}
+
+#about .progress {
+    background-color: var(--tertiary-color);
+}
+
+#about .progress-bar {
+    background-color: var(--primary-color);
 }
