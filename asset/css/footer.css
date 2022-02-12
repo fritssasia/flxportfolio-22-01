@@ -1,0 +1,21 @@
+#footer {
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--footer-border-color);
+}
+
+#footer p {
+    font-size: 15px;
+}
+
+#footer .love-icon i {
+    color: #e31b23;
+}
+
+#footer li {
+    padding: 0px 10px;
+}
+
+#footer li i {
+    color: var(--primary-text-color);
+}
