@@ -35,6 +35,8 @@ li {
     --primary-text-color: #120845;
     --secondary-text-color: #4B4569;
     --primary-font: 'Heebo', sans-serif;
+
+    --footer-border-color: #dee2e6;
 }
 
 [data-theme="dark"] {
@@ -47,6 +49,8 @@ li {
     --secondary-text-color: #C3C3C3;
     --primary-font: 'Heebo',
     sans-serif;
+
+    --footer-border-color: #242424;
 }
 
 html, body {
