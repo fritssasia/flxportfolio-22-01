@@ -1,0 +1,10 @@
+#contact .card {
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--tertiary-color);
+}
+
+#contact .card .icon i {
+    font-size: 25px;
+    color: var(--primary-color);
+}
