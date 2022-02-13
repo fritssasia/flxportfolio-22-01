@@ -1,62 +1,65 @@
-.navbar {
+#navbar {
     border-radius: 10px;
     margin: 20px;
-    transition: ease-out 0.5ms;
+    background-color: var(--primary-color);
 }
 
-.navbar-toggler .icon {
+#navbar .navbar-toggler .icon {
     width: 2em;
     height: 2em;
     object-fit: contain;
 }
 
-.navbar-active {
-    background-color: var(--primary-color);
-    transition: ease-in 0.5ms
-}
-
-.navbar-active a {
+#navbar .navbar-brand {
+    font-weight: 600;
     color: #ffffff !important;
 }
 
-.navbar .navbar-brand {
-    font-weight: 600;
-}
-
-.navbar .nav-link.menu {
+#navbar .nav-link.menu {
     font-family: var(--primary-font);
+    color: #ffffff !important;
 }
 
-.navbar .nav-link {
+#navbar .nav-link {
     border-radius: 10px;
 }
 
-.navbar .nav-link.active {
+#navbar .nav-link.active {
     font-weight: 600;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
 }
 
-.navbar .btnSwitchThemeWrapper .btn-switch-theme {
+#navbar .btnSwitchThemeWrapper .btn-switch-theme {
     margin-top: 5px;
     box-shadow: none;
 }
 
-.btn-switch-theme:checked {
+#navbar .btn-switch-theme:checked {
     background-color: var(--tertiary-color);
     border-color: var(--tertiary-color);
 }
 
-/* Medium devices (tablets, 768px and up)  */
-@media (min-width: 768px) {
-    .navbar .nav-link.menu {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
+#navbar .navbar-brand,
+.nav-link.menu,
+.btnSwitchThemeWrapper {
+    padding: 8px 10px;
 }
 
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {}
+
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    #navbar .navbar-brand,
+    .btnSwitchThemeWrapper {
+        padding-left: 0px;
+    }
+
+    #navbar .nav-link.menu {
+        padding: 8px 25px;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
