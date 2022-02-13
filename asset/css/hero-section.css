@@ -41,17 +41,39 @@
 
 /* Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
+    #hero-section .socmed-list {
+        left: unset;
+        right: 0;
+        padding-right: 45px;
+    }
+
+    #hero-section {
+        height: 700px;
+    }
+
+    #hero-section .name {
+        font-size: 2.2em;
+    }
+
     #hero-section .profile-pict {
         background-image: url('../images/profile-pict-md-lg.png');
-        height: 370px;
-        width: 370px;
     }
+    
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #hero-section {
+        height: 100vh;
+    }
+
     #hero-section .name {
         font-size: 60px;
+    }
+    
+    #hero-section .profile-pict {
+        height: 370px;
+        width: 370px;
     }
 }
 
