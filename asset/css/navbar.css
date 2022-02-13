@@ -59,6 +59,7 @@
 
     #navbar .nav-link.menu {
         padding: 8px 25px;
+        margin: unset;
     }
 }
 
