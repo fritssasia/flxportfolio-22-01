@@ -37,8 +37,10 @@
 
 #about .progress {
     background-color: var(--tertiary-color);
+    border-radius: 10px;
 }
 
 #about .progress-bar {
     background-color: var(--primary-color);
+    border-radius: 10px;
 }
