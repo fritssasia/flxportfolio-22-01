@@ -23,28 +23,23 @@
     background-repeat: no-repeat;
 }
 
-#hero-section .socmed-list {
-    position: absolute;
-    left: 0;
-    padding-left: 35px;
-    width: 10px;
-}
-
-#hero-section .socmed-link {
-    padding-top: 10px;
-}
-
-#hero-section .socmed-link a {
-    font-size: 18px;
-    color: var(--color-tertiary);
-}
-
 /* Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
     #hero-section .socmed-list {
+        position: absolute;
         left: unset;
         right: 0;
         padding-right: 45px;
+        width: 10px;
+    }
+    
+    #hero-section .socmed-link {
+        padding-top: 10px;
+    }
+
+    #hero-section .socmed-link a {
+        font-size: 18px;
+        color: var(--color-tertiary);
     }
 
     #hero-section {
@@ -63,6 +58,11 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #hero-section .socmed-list {
+        left: 0;
+        padding-left: 35px;
+    }
+
     #hero-section {
         height: 100vh;
     }
