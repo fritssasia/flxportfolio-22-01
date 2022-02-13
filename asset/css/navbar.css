@@ -43,8 +43,8 @@
 }
 
 .btn-switch-theme:checked {
-    background-color: black;
-    border-color: black;
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
 }
 
 /* Medium devices (tablets, 768px and up)  */
