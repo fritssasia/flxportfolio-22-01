@@ -18,6 +18,7 @@
 #navbar .nav-link.menu {
     font-family: var(--primary-font);
     color: #ffffff !important;
+    margin: 4px 0px;
 }
 
 #navbar .nav-link {
