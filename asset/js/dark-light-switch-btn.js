@@ -1,4 +1,4 @@
-// Wait for document to load
+// Light & Dark switch button
 document.addEventListener("DOMContentLoaded", function (event) {
     document.documentElement.setAttribute("data-theme", "light");
 
