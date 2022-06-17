@@ -46,17 +46,17 @@ li {
 }
 
 [data-theme="dark"] {
-    --default-color: #1F1F1F;
+    --default-color: #0e1525;
     --primary-color: #7562E0;
-    --secondary-color: #131212;
-    --tertiary-color: #242424;
+    --secondary-color: #0f1729;
+    --tertiary-color: #1d283a;
 
     --primary-text-color: #ffffff;
     --secondary-text-color: #C3C3C3;
     --primary-font: 'Heebo',
     sans-serif;
 
-    --footer-border-color: #242424;
+    --footer-border-color: #1d283a;
 }
 
 html, body {
