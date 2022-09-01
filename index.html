@@ -34,8 +34,8 @@
     <!-- About CSS -->
     <link rel="stylesheet" href="asset/css/about.css">
 
-    <!-- Experience CSS -->
-    <link rel="stylesheet" href="asset/css/experience.css">
+    <!-- Services CSS -->
+    <link rel="stylesheet" href="asset/css/services.css">
 
     <!-- Portfolio -->
     <link rel="stylesheet" href="asset/css/portfolio.css">
@@ -106,21 +106,13 @@
                         <a class="nav-link menu" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#experience">Experience</a>
+                        <a class="nav-link menu" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link menu" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link menu" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto pt-3 pt-lg-0">
-                    <li class="nav-item btnSwitchThemeWrapper">
-                        <div class="form-check form-switch">
-                            <input class="form-check-input form-switch- btn-switch-theme" type="checkbox" role="switch"
-                                id="btnSwithTheme">
-                        </div>
                     </li>
                 </ul>
             </div>
@@ -152,12 +144,15 @@
                 </ul>
 
                 <div class="col-md-6 order-1 order-md-0 pt-4 pt-lg-0">
-                    <p class="say-hello color-primary mb-0">Hi, I am</p>
+                    <div class="JC-HeaderContent-alert">
+                        <div class="JC-HeaderContent-alertBox"><i class="fa-solid fa-face-smile-wink"></i></div>
+                        <p>Hi, I am</p>
+                    </div>
                     <h1 class="name mb-0">Rivas Frits Sasia</h1>
                     <p class="desc text-color-secondary">Front End Web Developer at HevaDevelop</p>
                     <div class="pt-3">
-                        <a href="" class="btn bg-color-primary glow-effects-btn text-white">Contact Me</a>
-                        <a href="" class="btn btn-link text-color-primary ms-3">View Project</a>
+                        <a href="" class="btn bg-color-primary glow-effects-btn text-white">Hire Me</a>
+                        <a href="#portfolio" class="btn btn-link text-decoration-none text-color-primary ms-3">View Portfolio</a>
                     </div>
                 </div>
 
@@ -171,12 +166,18 @@
     <!-- Hero Section : End -->
 
     <!-- About : Start -->
-    <section class="bg-color-secondary py-5 my-5" id="about">
+    <section class="py-5 my-5" id="about">
         <div class="container py-5 px-4">
 
+            <h1 class="d-lg-none heading-main mb-5">About Me
+                <span class="heading-bg">About Me</span>
+            </h1>
+
             <div class="row g-5 d-flex align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="">About Me</h1>
+                <div class="col-lg-6 order-1 order-md-0">
+                    <h1 class="d-none d-lg-block heading-main mb-5">About Me
+                        <span class="heading-bg">About Me</span>
+                    </h1>
                     <p class="about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora similique
                         ipsa
                         velit est ad
@@ -224,62 +225,9 @@
 
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-0 order-md-1">
                     <div class="content">
-
-                        <ul class="list-skill">
-                            <li class="">
-                                <p class="skill"><span class="icon"><i class="fab fa-html5"></i></span> HTML5</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
-                                        aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-                                </div>
-                            </li>
-
-                            <li class="pt-3">
-                                <p class="skill"><span class="icon"><i class="fab fa-css3-alt"></i></span> CSS3</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
-                                        aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-                                </div>
-                            </li>
-
-                            <li class="pt-3">
-                                <p class="skill"><span class="icon"><i class="fab fa-bootstrap"></i></span> Bootstrap
-                                </p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
-                                        aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-                                </div>
-                            </li>
-
-                            <li class="pt-3">
-                                <p class="skill"><span class="icon"><i class="fab fa-js-square"></i></span> JavaScript
-                                </p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
-                                        aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-                                </div>
-                            </li>
-
-                            <li class="pt-3">
-                                <p class="skill"><span class="icon"><i class="fab fa-python"></i></span> Python 3</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
-                                        aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-                                </div>
-                            </li>
-
-                            <!-- <li class="pt-3">
-                                <p class="skill"><span class="icon"><i class="fab fa-laravel"></i></span> Laravel</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0"
-                                        aria-valuemax="100">Intermediate</div>
-                                </div>
-                            </li> -->
-
-                        </ul>
-
+                        <img src="asset/images/illustration/webDevIllustration.svg" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -287,241 +235,108 @@
     </section>
     <!-- About : End -->
 
-    <!-- Experience : Start -->
-    <section class="py-5 my-5" id="experience">
+    <!-- services : Start -->
+    <section class="py-5 my-5" id="services">
         <div class="container py-5">
 
-            <ul class="nav nav-pills justify-content-center mb-5" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="myExperienceTab" data-bs-toggle="pill"
-                        data-bs-target="#myExperience" type="button" role="tab" aria-controls="pillsMyExperience"
-                        aria-selected="true">My Experience</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="myEducationTab" data-bs-toggle="pill" data-bs-target="#myEducation"
-                        type="button" role="tab" aria-controls="pillsMyEducation" aria-selected="false">My
-                        Education</button>
-                </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="myExperience" role="tabpanel"
-                    aria-labelledby="myExperienceTab">
-                    <ul class="experience-list">
-                        <li>
-                            <span class="dot-icon"></span>
-                            <div class="year">
-                                <div class="d-flex long-content">
-                                    <p>January to August 2019</p>
-                                </div>
-                                <div class="details">
-                                    <h4>IT Center</h4>
-                                    <p>Technical Assistant <br>Manado, North Sulawesi</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="dot-icon"></span>
-                            <div class="year">
-                                <div class="d-flex long-content">
-                                    <p>January 2020 to Now</p>
-                                </div>
-                                <div class="details ps-md-3 ms-md-1">
-                                    <h4>HevaDevelop</h4>
-                                    <p>Remote Front End Web Developer <br>Depok, West Java</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <h1 class="heading-main mb-5">Services
+                <span class="heading-bg">Services</span>
+            </h1>
 
-                <!-- -- My Education Content -- -->
-                <div class="tab-pane fade" id="myEducation" role="tabpanel" aria-labelledby="myEducationTab">
-                    <ul class="experience-list">
-                        <li>
-                            <span class="dot-icon"></span>
-                            <div class="year">
-                                <div class="d-flex short-content">
-                                    <p>2014 to 2017</p>
-                                </div>
-                                <div class="details ps-md-5 ms-md-4">
-                                    <h4>SMP PGRI 2 Manado</h4>
-                                    <p>Junior high school <br>Manado, North Sulawesi</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="dot-icon"></span>
-                            <div class="year">
-                                <div class="d-flex short-content">
-                                    <p>2017 to 2020</p>
-                                </div>
-                                <div class="details ps-md-5 ms-md-4">
-                                    <h4>SMK YPKM<br>Computer and Network Engineering</h4>
-                                    <p>Vocational School <br>Manado, North Sulawesi</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <span class="icon"><i class="fas fa-desktop"></i></span>
+                            <h1 class="heading mt-3">Front End<br>Web Development</h1>
+                            <p class="desc m-0">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum officia adipisci magnam
+                                sed, ducimus in? Accusamus sequi non minima corporis, nihil ullam molestiae quas
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
         </div>
     </section>
-    <!-- Experience : End -->
+    <!-- service : End -->
 
     <!-- Portfolio : Start -->
-    <section class="bg-color-secondary py-5 my-5" id="portfolio">
+    <section class="py-5 my-5" id="portfolio">
         <div class="container py-5 px-4">
 
-            <div class="text-center pb-4">
-                <h1>My Portfolio</h1>
-                <p class="text-center text-color-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                </p>
-            </div>
+            <h1 class="heading-main mb-5">My Portfolio
+                <span class="heading-bg">My Portfolio</span>
+            </h1>
 
-            <!-- -- Portfolio Navigation Menu : Start -- -->
-            <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="btn-portfolio-all-project" data-bs-toggle="pill"
-                        data-bs-target="#portfolioAllProject" type="button" role="tab" aria-controls="pills-home"
-                        aria-selected="true">All Project</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="btn-portfolio-front-end-web" data-bs-toggle="pill"
-                        data-bs-target="#portfolioFrontEndWeb" type="button" role="tab" aria-controls="pills-profile"
-                        aria-selected="false">Front End Web</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="btn-portfolio-other" data-bs-toggle="pill"
-                        data-bs-target="#portfolioOther" type="button" role="tab" aria-controls="pills-contact"
-                        aria-selected="false">Other</button>
-                </li>
-            </ul>
-            <!-- -- Portfolio Navigation Menu : End -- -->
+            <div class="row row-cols-1 row-cols-md-2 g-3">
 
-            <!-- -- Portfolio Nav Content Wrapper : Start -- -->
-            <div class="tab-content pt-3" id="pills-tabContent">
+                <div class="col">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="asset/images/sweet.png" alt="" class="img-fluid">
+                    </button>
 
-                <!-- Portfolio Nav Content - All Project : Start -->
-                <div class="tab-pane fade show active" id="portfolioAllProject" role="tabpanel"
-                    aria-labelledby="portfolio-all-project-content">
-                    <div class="row g-3">
+                    <!-- Modal -->
+                    <div class="modal project-detail fade" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header px-4 border-0">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-4">
+                                    <div class="row">
 
-                        <div class="col-lg-4">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                            </button>
-
-                            <!-- Modal -->
-                            <div class="modal project-detail fade" id="exampleModal" tabindex="-1"
-                                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-                                    <div class="modal-content">
-                                        <div class="modal-header px-4 border-0">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
+                                        <div class="col-lg-6">
+                                            <p class="text-color-secondary">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                Quibusdam ipsa obcaecati quae aliquid illum sequi officia
+                                                tenetur, blanditiis hic ipsum similique velit repellat adipisci
+                                                voluptatem eos quia iusto pariatur quam.
+                                            </p>
+                                            <p class="tech-stack pt-3">
+                                                #HTML5 #CSS3 #JavaScript
+                                            </p>
                                         </div>
-                                        <div class="modal-body px-4">
-                                            <div class="row">
 
-                                                <div class="col-lg-6">
-                                                    <p class="text-color-secondary">
-                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                                        Quibusdam ipsa obcaecati quae aliquid illum sequi officia
-                                                        tenetur, blanditiis hic ipsum similique velit repellat adipisci
-                                                        voluptatem eos quia iusto pariatur quam.
-                                                    </p>
-                                                    <p class="tech-stack pt-3">
-                                                        #HTML5 #CSS3 #JavaScript
-                                                    </p>
-                                                </div>
-
-                                                <div class="col-lg-6">
-                                                    <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                                                </div>
-
-                                            </div>
+                                        <div class="col-lg-6">
+                                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                    </div>
-                </div>
-                <!-- Portfolio Nav Content - All Project : End -->
-
-                <!-- Portfolio Nav Content - Front End Web : Start -->
-                <div class="tab-pane fade" id="portfolioFrontEndWeb" role="tabpanel"
-                    aria-labelledby="portfolio-front-end-web-content">
-
-                    <div class="row">
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
                     </div>
 
                 </div>
-                <!-- Portfolio Nav Content - Front End Web : End -->
 
-                <!-- Portfolio Nav Content - Other : Start -->
-                <div class="tab-pane fade" id="portfolioOther" role="tabpanel"
-                    aria-labelledby="portfolio-other-content">
-
-                    <div class="row">
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4">
-                            <img src="asset/images/sweet.png" alt="" class="img-fluid">
-                        </div>
-
-                    </div>
-
+                <div class="col">
+                    <img src="asset/images/sweet.png" alt="" class="img-fluid">
                 </div>
-                <!-- Portfolio Nav Content - Other : End -->
+
+                <div class="col">
+                    <img src="asset/images/sweet.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="asset/images/sweet.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="asset/images/sweet.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="asset/images/sweet.png" alt="" class="img-fluid">
+                </div>
 
             </div>
-            <!-- -- Portfolio Nav Content Wrapper : End -- -->
+            <!-- Portfolio Nav Content - All Project : End -->
 
         </div>
     </section>
@@ -625,8 +440,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-
-    <script src="asset/js/dark-light-switch-btn.js"></script>
 
 </body>
 
