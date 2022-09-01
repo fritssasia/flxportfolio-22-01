@@ -1,0 +1,56 @@
+#services .heading-main {
+    color: #0c1e50;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+}
+
+#services .heading-bg {
+    font-size: 60px;
+    position: absolute;
+    color: #6980bf40;
+    left: -19px;
+    top: -12px;
+    z-index: -1;
+}
+
+#services .card {
+    background-color: #ebeff3;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24px 0px #0000001a;;
+}
+
+#services .card .icon {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+#services .card .heading {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+#services .card p {
+    color: var(--titleBG);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #services .heading-main {
+    font-size: 50px;
+}
+
+#services .heading-bg {
+    font-size: 70px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

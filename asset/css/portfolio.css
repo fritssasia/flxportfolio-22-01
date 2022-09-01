@@ -1,3 +1,22 @@
+#portfolio .heading-main {
+    color: #0c1e50;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+}
+
+#portfolio .heading-bg {
+    font-size: 50px;
+    position: absolute;
+    color: #6980bf40;
+    left: -19px;
+    top: -10px;
+    z-index: -1;
+}
+
 #portfolio .nav .nav-link {
     border-radius: 10px;
     font-size: 15px;
@@ -25,3 +44,21 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #portfolio .heading-main {
+        font-size: 40px;
+    }
+
+    #portfolio .heading-bg {
+        font-size: 60px;
+        top: -12px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

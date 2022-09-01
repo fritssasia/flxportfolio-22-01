@@ -1,3 +1,22 @@
+#about .heading-main {
+    color: #0c1e50;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+}
+
+#about .heading-bg {
+    font-size: 60px;
+    position: absolute;
+    color: #6980bf40;
+    left: -19px;
+    top: -12px;
+    z-index: -1;
+}
+
 #about .card {
     background-color: var(--tertiary-color);
 }
@@ -14,12 +33,13 @@
 }
 
 #about p {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     margin-bottom: 0;
 }
 
 #about .card {
     border-radius: 10px;
+    box-shadow: var(--box-shadow);
 }
 
 #about .card .desc {
