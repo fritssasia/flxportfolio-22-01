@@ -9,11 +9,11 @@
 }
 
 #portfolio .heading-bg {
-    font-size: 50px;
+    font-size: 45px;
     position: absolute;
     color: #6980bf40;
     left: -19px;
-    top: -10px;
+    top: -5px;
     z-index: -1;
 }
 
