@@ -9,3 +9,7 @@
     font-size: 25px;
     color: var(--primary-color);
 }
+
+#contact a.contact {
+    color: var(--secondary-text-color) !important;
+}
