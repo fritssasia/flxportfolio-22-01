@@ -41,11 +41,11 @@
 
 #hero-section .profile-pict {
     background-image: url('../images/profile-pict-sm.png');
-    height: 290px;
-    width: 290px;
+    height: 270px;
+    width: 270px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 /* Medium devices (tablets, 768px and up)  */
