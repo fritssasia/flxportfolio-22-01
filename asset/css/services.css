@@ -38,6 +38,14 @@
     color: var(--titleBG);
 }
 
+#services .stack p {
+    font-size: 14px;
+    background-color: #8172e4;
+    padding: 8px 15px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     #services .heading-main {
